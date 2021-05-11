@@ -1,0 +1,8 @@
+#Unit testing 
+#date 5/10/2021
+
+Todays Agenda.
+1. in django consists a file that name is tets.py, help of this file create test case.
+2. python manage.py test before run this command 
+3. create a file tests.py in project and calc file for function defination
+4. python manage.py test && flake8 # run this command for test

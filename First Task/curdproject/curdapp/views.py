@@ -7,6 +7,8 @@ from rest_framework.renderers import JSONRenderer
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
+from rest_framework.decorators import api_view
+#from rest_framework.views  import APIView
 from django.views import View
 
 @method_decorator(csrf_exempt, name='dispatch')

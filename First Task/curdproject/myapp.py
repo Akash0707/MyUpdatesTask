@@ -12,7 +12,7 @@ def get_data(id = None):
  data = r.json()
  print(data)
 
-#get_data()
+get_data()
 
 def post_data():
  data = {
@@ -26,7 +26,7 @@ def post_data():
  data = r.json()
  print(data)
 
-post_data()
+#post_data()
 
 def update_data():
  data = {
@@ -51,6 +51,6 @@ def delete_data():
  data = r.json()
  print(data)
 
-delete_data()
+#delete_data()
 
 
