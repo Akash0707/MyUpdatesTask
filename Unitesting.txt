@@ -6,3 +6,6 @@ Todays Agenda.
 2. python manage.py test before run this command 
 3. create a file tests.py in project and calc file for function defination
 4. python manage.py test && flake8 # run this command for test
+
+
+5. django used the models filel that help to create sql  query in back-end in the python code, of the user want to use raw query of the sql, its sql appraoch not the orm approach.
