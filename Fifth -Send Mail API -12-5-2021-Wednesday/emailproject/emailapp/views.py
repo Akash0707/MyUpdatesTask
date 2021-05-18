@@ -29,7 +29,7 @@ class StudentAPI(APIView):
         email1 = pythondata['email']
         message = "Hello  "
         subject = "The mail send through the API"
-        from_email = "raiakash8188@gmail.com"
+        from_email = "
         to_email = email1
         send_mail(subject, message, from_email, (email1,),
                     auth_password=settings.EMAIL_HOST_PASSWORD)
